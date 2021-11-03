@@ -100,8 +100,7 @@ a {
   text-align: center;
   font-size: 16px;
   float: left;
-  margin-top: 35px;
-  margin-bottom: 5px;
+  margin: 35px 0 5px 5px;
   color: #828282;
 }
 
@@ -112,7 +111,7 @@ a {
   height: 16px;
   width: 16px;
   position: relative;
-  top: 0px;
+  top: 2px;
   right: 4px;
 }
 
@@ -121,6 +120,7 @@ a {
   font-size: 16px;
   float: left;
   margin-right: 23px;
+  margin-left: 5px;
   color: #828282;
 }
 
@@ -131,7 +131,6 @@ a {
   height: 16px;
   width: 16px;
   position: relative;
-  top: 0px;
   right: 4px;
 }
 
@@ -139,7 +138,7 @@ a {
   text-align: center;
   font-size: 16px;
   float: left;
-  margin-right: 16px;
+  margin-right: 17px;
   color: #828282;
 }
 
@@ -150,14 +149,14 @@ a {
   height: 13px;
   width: 13px;
   position: relative;
-  top: 0px;
   right: 4px;
 }
 
 
 .pro {
   float: left;
-  margin-top: 20px;
+  margin-top: 42px;
+  margin-left: 5px;
   color: #828282;
 }
 
@@ -165,6 +164,7 @@ a {
   display: inline-block;
   font-size: 24px;
   color: #333333;
+  margin: 0;
 }
 
 .pro:before {
@@ -175,7 +175,7 @@ a {
   background: #379222;
   position: relative;
   top: -1px;
-  right: 2px;
+  right: 5px;
   border-radius: 3px;
   padding: 3px 7px 3px 7px;
 }
@@ -197,7 +197,7 @@ a {
   border-radius: 3px;
   background-color: #EDEDED;
   margin-right: 1px;
-  flex-shrink: 1;
+  //flex-shrink: 1;
 }
 .green {
   background-color: rgba(55, 146, 34, 0.6);
@@ -225,24 +225,34 @@ a {
   font-size: 16px;
 }
 
+.col-conditions {
+  padding: 0;
+  margin-top: 16px;
+  width: 477px;
+}
+
 .conditions {
+  margin: 0;
   font-size: 14px;
   color: #888888;
+  line-height: 1.4;
 }
 
 .main-text {
   font-size: 16px;
   color: #333333;
+  line-height: 1.4;
+  margin-top: 14px;
 }
 
 .author {
-  margin-top: 24px;
+  margin-top: 18px;
 }
 
 .author-name {
   font-size: 18px;
   color: #000000;
-  margin: 5px;
+  margin: 4px;
 }
 
 .author-image {
