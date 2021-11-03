@@ -1,0 +1,60 @@
+.breakpoints {
+  border-left: solid 3px #333;
+  border-right: solid 3px #333;
+  min-height: 100vh;
+  min-width: 200px;
+
+  //@include media-breakpoint-up('xs') {
+  //  background-color: #FFFADD;
+  //}
+  //
+  //@include media-breakpoint-up('sm') {
+  //  background-color: #FED68C;
+  //}
+  //
+  //@include media-breakpoint-up('md') {
+  //  background-color: #DEF7FE;
+  //}
+  //
+  //@include media-breakpoint-up('lg') {
+  //  background-color: #E7ECFF;
+  //}
+  //
+  //@include media-breakpoint-up('xl') {
+  //  background-color: #C6D8FF;
+  //}
+  //
+  //@include media-breakpoint-up('xxl') {
+  //  background-color: #C3FBD8;
+  //}
+
+  //&::before {
+  //  display: block;
+  //  text-align: center;
+  //  font-size: 200px;
+  //
+  //  @include media-breakpoint-up('xs') {
+  //    content: "xs";
+  //  }
+  //
+  //  @include media-breakpoint-up('sm') {
+  //    content: "sm";
+  //  }
+  //
+  //  @include media-breakpoint-up('md') {
+  //    content: "md";
+  //  }
+  //
+  //  @include media-breakpoint-up('lg') {
+  //    content: "lg";
+  //  }
+  //
+  //  @include media-breakpoint-up('xl') {
+  //    content: "xl";
+  //  }
+  //
+  //  @include media-breakpoint-up('xxl') {
+  //    content: "xxl";
+  //  }
+  //}
+}
